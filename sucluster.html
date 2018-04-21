@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>에스유소프트에 오신것을 환형합니다.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+    <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- SCRIPTS -->
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+    <script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+    <script src="js/superfish.min.js" type="text/javascript"></script>
+    <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.js" type="text/javascript"></script>
+    <script src="js/animate.js" type="text/javascript"></script>
+    <script src="js/jquery.BlackAndWhite.js"></script>
+    <script src="js/myscript.js" type="text/javascript"></script>
+    <script>
+        //PrettyPhoto
+        jQuery(document).ready(function() {
+            $("a[rel^='prettyPhoto']").prettyPhoto();
+        });
+
+        //BlackAndWhite
+        $(window).load(function() {
+            $(".client_img").BlackAndWhite({
+                hoverEffect: true, // default true
+                // set the path to BnWWorker.js for a superfast implementation
+                webworkerPath: false,
+                // for the images with a fluid width and height
+                responsive: true,
+                // to invert the hover effect
+                invertHoverEffect: false,
+                // this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+                intensity: 1,
+                speed: {
+                    //this property could also be just speed: value for both fadeIn and fadeOut
+                    fadeIn: 300, // 200ms for fadeIn animations
+                    fadeOut: 300 // 800ms for fadeOut animations
+                },
+                onImageReady: function(img) {
+                    // this callback gets executed anytime an image is converted
+                }
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!-- PRELOADER -->
+    <img id="preloader" src="images/preloader.gif" alt="" />
+    <!-- //PRELOADER -->
+    <div class="preloader_hide">
+
+        <!-- PAGE -->
+        <div id="page">
+
+            <!-- HEADER -->
+            <header>
+
+                <!-- MENU BLOCK -->
+                <div class="menu_block">
+
+                    <!-- CONTAINER -->
+                    <div class="container clearfix">
+
+                        <!-- LOGO -->
+                        <div class="logo pull-left">
+                            <a href="index.html"><span style="color: darkorange; padding-right: 0;font-weight: 800">SU</span><span>Soft</span></a>
+                        </div>
+                        <!-- //LOGO -->
+
+                        <!-- MENU -->
+                        <div class="pull-right">
+                            <nav class="navmenu center">
+                                <ul>
+                                    <li class="sub-menu">
+                                        <a href="javascript:void(0);">제품소개</a>
+                                        <ul>
+                                            <li><a href="sucloud.html">Sucloud</a></li>
+                                            <li><a href="sulinux.html">SULinux 17</a></li>
+                                            <li><a href="suwas.html">SUWAS</a></li>
+                                            <li><a href="sucluster.html">SUCLUSTER</a></li>
+                                            <li><a href="suidc.html">SUIDC</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="scroll_btn"><a href="store.html">스토어</a></li>
+                                    <li class="scroll_btn"><a href="customer.html">지원실적</a></li>
+                                    <li class="scroll_btn"><a href="contact.html">문의하기</a></li>
+                                    <li class="scroll_btn"><a href="patner.html">파트너사</a></li>
+                                    <li class="scroll_btn last"><a href="http://blog.sucloud.kr">Blog</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- //MENU -->
+                    </div>
+                    <!-- //MENU BLOCK -->
+                </div>
+                <!-- //CONTAINER -->
+            </header>
+            <!-- //HEADER -->
+
+            <section class="su_breadcrumbs_block su_breadcrumbs_block_back clearfix parallax">
+                <div class="container center">
+                    <h2><b style="color: darkorange">SU</b>Cluster</h2>
+                    <p>오픈소스 기반으로 HA 클러스터 시스템</p>
+                </div>
+            </section>
+
+            <!-- //BREADCRUMBS -->
+
+            <section id="intro">
+                <div class="purpose_block">
+                    <div class="container">
+                        <div class="row padbot60">
+                            <div class="col-lg-4 col-md-4 col-sm-4 intro_item">
+                                <h3 style="font-weight: 600;">제품의 특징</h3>
+                                <p class="under"></p>
+                                <!-- <p>하나. 지속적인 유지/관리로 안정성 확보!<br> 둘. 초기 Tomcat 튜닝으로 최대 성능 발휘! (튜닝대비 10배 이상)<br> 셋. WAS의 설정 변경은 자주 할 필요 없음!<br> 넷. 유지/관리 업체에서 진행하므로 사용자는 신경 쓰지 않아도 됨!</p> -->
+
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8" data-appear-top-offset="-200" data-animated="fadeInLeft">
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <th class="col-lg-2"></th>
+                                            <th class="col-lg-5">기능 설명</th>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td rowspan="2">HA 클러스터</td>
+                                                <td>Active-Backup 구성으로 자원 감시 및 Failover, Failback</td>
+                                            </tr>
+                                            <tr>
+                                                <td>여러 Failover 도메인 구성</td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="2">Fencing</td>
+                                                <td>장애 노드 완벽한 차단을 위한 fencing 제공</td>
+                                            </tr>
+                                            <tr>
+                                                <td>SAN, Power, IPMI등 다양한 Fencing 방법 제공</td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="3">리소스 관리</td>
+                                                <td>HA에 다양한 리소스 연동하여 fencing 제공</td>
+                                            </tr>
+                                            <tr>
+                                                <td>IP, FS, Oracle등 다양한 리소스 템플릿 제공</td>
+                                            </tr>
+                                            <tr>
+                                                <td>리소스 모니터링 및 Failover</td>
+                                            </tr>
+                                            <tr>
+                                                <td>공유 파일 시스템</td>
+                                                <td>Shared storage 파일 공유를 위한 공유파일 시스템(GFS2) 구성 지원</td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="2">실시간 볼륨복제</td>
+                                                <td>Shared storage가 없을 경우 Local Disk 실시간 복제</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Sync 방식과 Async방식 모두 제공</td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="2">공유 스토리지 볼륨 매니저</td>
+                                                <td>공유 스토리지 Cluster 볼륨 매니저</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Online 볼륨 추가, 확장, 축소 기능 제공</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- //ROW -->
+                    </div>
+                </div>
+                <div class="purpose_block" style=" background-color: #f4f4f4 ">
+                    <div class="container">
+                        <div class="row padbot60">
+                            <div class="col-lg-8 col-md-8 col-sm-8" data-appear-top-offset="-200" data-animated="fadeInRight">
+                                <img src="images/sucluster-layout.png" alt="suwas-layout">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 intro_item">
+                                <h3 style="font-weight: 600;">SUCluster 구조</h3>
+                                <p class="under"></p>
+                                <div class="table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>분류</th>
+                                                <th>상세내용</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td rowspan="2">CoroSync</td>
+                                                <td>핵심 Cluster Engine</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Quorum 시스템 제공</td>
+                                            </tr>
+                                            <tr>
+                                                <td rowspan="2">RGManager</td>
+                                                <td>리소스 및 서비스 관리</td>
+                                            </tr>
+                                            <tr>
+                                                <td>리소스 상태 모니터링, 시작, 종료, 재시작</td>
+                                            </tr>
+                                            <tr>
+                                                <td>GFS</td>
+                                                <td>공유스토리를 위한 공유 파일 시스템</td>
+                                            </tr>
+                                            <tr>
+                                                <td>cLVM</td>
+                                                <td>공유스토리지 클러스터 볼륨 매니저</td>
+                                            </tr>
+                                            <tr>
+                                                <td>DRBD</td>
+                                                <td>실시간 볼륨 복제</td>
+                                            </tr>
+                                        </tbody>
+
+                                    </table>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- //ROW -->
+                    </div>
+                </div>
+                <div class="purpose_block">
+                    <div class="container">
+                        <div class="row padbot60">
+                            <div class="col-lg-4 col-md-4 col-sm-4 intro_item">
+                                <h3 style="font-weight: 600;">제품 구성</h3>
+                                <p class="under"></p>
+                                <p></p>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8" data-appear-top-offset="-200" data-animated="fadeInLeft">
+                                <br>
+                                <br>
+                                <p>Ex) 2 node Oracle HA 클러스터 구성 및 리소스, 서비스 그룹 설정 GUI</p>
+                                <img src="images/sucluster-example.png" alt="example">
+
+                                <br>
+                                <br>
+                                <img src="images/sucluster-gui1.png" alt="example">
+                                <br>
+                                <br>
+                                <img src="images/sucluster-gui2.png" alt="example">
+
+                            </div>
+
+
+                        </div>
+                        <!-- //ROW -->
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <!-- CONTACTS -->
+        <section id="contacts">
+        </section>
+        <!-- //CONTACTS -->
+
+        <!-- FOOTER -->
+        <footer>
+
+            <!-- CONTAINER -->
+            <div class="container">
+
+                <!-- ROW -->
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
+                        <h4>(주)에스유소프트</h4>
+                        <p>hello</p>
+                        <p></p>
+                        <ul class="social">
+                            <li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="javascript:void(0);"><i class="fa fa-pinterest-square"></i></a></li>
+                            <li><a href="javascript:void(0);"><i class="map_show fa fa-map-marker"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="respond_clear"></div>
+
+                    <div class="col-lg-4 col-md-4 padbot30">
+                        <span>경기도 성남시 분당구 정자일로 158, 606호 (13558)</span><br>
+                        <span>606, 158, Jeongjail-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea (13558)</span><br>
+                        <span>대표이사 박성수</span><br>
+                        <a href="mailto:sales@linux.co.kr">sales@linux.co.kr</a><br>
+                        <spanp>TEL : 1544 - 8128</span>
+                    </div>
+                </div>
+                <!-- //ROW -->
+            </div>
+            <!-- //CONTAINER -->
+        </footer>
+        <!-- //FOOTER -->
+
+
+        <!-- MAP -->
+
+        <!-- //MAP -->
+    </div>
+
+
+</body>

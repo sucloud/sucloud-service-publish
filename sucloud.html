@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>에스유소프트에 오신것을 환형합니다.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+    <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- SCRIPTS -->
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+    <script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+    <script src="js/superfish.min.js" type="text/javascript"></script>
+    <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.js" type="text/javascript"></script>
+    <script src="js/animate.js" type="text/javascript"></script>
+    <script src="js/jquery.BlackAndWhite.js"></script>
+    <script src="js/myscript.js" type="text/javascript"></script>
+    <script>
+        //PrettyPhoto
+        jQuery(document).ready(function() {
+            $("a[rel^='prettyPhoto']").prettyPhoto();
+        });
+
+        //BlackAndWhite
+        $(window).load(function() {
+            $(".client_img").BlackAndWhite({
+                hoverEffect: true, // default true
+                // set the path to BnWWorker.js for a superfast implementation
+                webworkerPath: false,
+                // for the images with a fluid width and height
+                responsive: true,
+                // to invert the hover effect
+                invertHoverEffect: false,
+                // this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+                intensity: 1,
+                speed: {
+                    //this property could also be just speed: value for both fadeIn and fadeOut
+                    fadeIn: 300, // 200ms for fadeIn animations
+                    fadeOut: 300 // 800ms for fadeOut animations
+                },
+                onImageReady: function(img) {
+                    // this callback gets executed anytime an image is converted
+                }
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <!-- PRELOADER -->
+    <img id="preloader" src="images/preloader.gif" alt="" />
+    <!-- //PRELOADER -->
+    <div class="preloader_hide">
+
+        <!-- PAGE -->
+        <div id="page">
+
+            <!-- HEADER -->
+            <header>
+
+                <!-- MENU BLOCK -->
+                <div class="menu_block">
+
+                    <!-- CONTAINER -->
+                    <div class="container clearfix">
+
+                        <!-- LOGO -->
+                        <div class="logo pull-left">
+                            <a href="index.html"><span style="color: darkorange; padding-right: 0;font-weight: 800">SU</span><span>Soft</span></a>
+                        </div>
+                        <!-- //LOGO -->
+
+                        <!-- MENU -->
+                        <div class="pull-right">
+                            <nav class="navmenu center">
+                                <ul>
+                                    <li class="sub-menu">
+                                        <a href="javascript:void(0);">제품소개</a>
+                                        <ul>
+                                            <li><a href="sucloud.html">Sucloud</a></li>
+                                            <li><a href="sulinux.html">SULinux 17</a></li>
+                                            <li><a href="suwas.html">SUWAS</a></li>
+                                            <li><a href="sucluster.html">SUCLUSTER</a></li>
+                                            <li><a href="suidc.html">SUIDC</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="scroll_btn"><a href="store.html">스토어</a></li>
+                                    <li class="scroll_btn"><a href="customer.html">지원실적</a></li>
+                                    <li class="scroll_btn"><a href="contact.html">문의하기</a></li>
+                                    <li class="scroll_btn"><a href="patner.html">파트너사</a></li>
+                                    <li class="scroll_btn last"><a href="http://blog.sucloud.kr">Blog</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- //MENU -->
+                    </div>
+                    <!-- //MENU BLOCK -->
+                </div>
+                <!-- //CONTAINER -->
+            </header>
+            <!-- //HEADER -->
+
+            <section class="su_breadcrumbs_block su_breadcrumbs_block_back clearfix parallax">
+                <div class="container center">
+                    <h2><b style="color: darkorange">SU</b>CLOUD</h2>
+                    <p>클라우드의 시작은 SUCloud와 함꼐</p>
+                </div>
+            </section>
+
+            <!-- //BREADCRUMBS -->
+
+            <section id="banner">
+                <div class=" padbot40" style="margin-top: 50px;">
+
+                    <!-- CONTAINER -->
+                    <div class="container">
+                        <!-- ROW -->
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-ss-12 margbot30">
+                                <a class="services_item" href="javascript:void(0);">
+                                    <p><b>비용절감</b></p>
+                                    <span>국내 및 해외의 퍼블릭 클라우드 서버를 사용할 때보다 비용이 절반이하로 절감</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-ss-12 margbot30">
+                                <a class="services_item" href="javascript:void(0);">
+                                    <p><b>셀프서브</b></p>
+                                    <span>자원이 필요한 사람이 직접 생성해서 사용하는 셀프서비스 방식의 간편함</span>
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-ss-12 margbot30">
+                                <a class="services_item" href="javascript:void(0);">
+                                    <p><b>관리표준화</b></p>
+                                    <span>서버와 어플리케이션을 가상자원으로 표준화하고 이름과 태그를 통해 관리</span>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- //ROW -->
+                    </div>
+                    <!-- //CONTAINER -->
+                </div>
+                <!-- //SERVICES -->
+
+            </section>
+
+            <section id="intro">
+                <div class="purpose_block" style=" background-color: #f4f4f4 ">
+                    <div class="container">
+                        <div class="row padbot60">
+                            <div class="col-lg-4 col-md-4 col-sm-4 intro_item">
+                                <h3>어플리케이션 실행</h3>
+                                <p class="under"></p>
+                                <p>스토에서 무료로 제공하는 수십가지의 어플리케이션들을 지금 즉시 사용해보세요</p>
+
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8" data-appear-top-offset="-200" data-animated="fadeInRight">
+                                <img src="images/intro01.png" alt="intro1">
+                            </div>
+                        </div>
+                        <!-- //ROW -->
+                    </div>
+                </div>
+                <div class="purpose_block">
+                    <div class="container">
+                        <div class="row padbot60">
+                            <div class="col-lg-8 col-md-8 col-sm-8" data-appear-top-offset="-200" data-animated="fadeInLeft">
+                                <img src="images/intro02.png" alt="intro2">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 intro_item">
+                                <h3>명료한 대시보드</h3>
+                                <p class="under"></p>
+                                <p>각종 리소스 사용 현황을 깔끔하게 한눈에 제공함으로써 관리자의 업무효율이 대폭 향상됩니다.</p>
+                            </div>
+                        </div>
+                        <!-- //ROW -->
+                    </div>
+                </div>
+                <div class="purpose_block" style=" background-color: #f4f4f4 ">
+                    <div class="container">
+                        <div class="row padbot60">
+                            <div class="col-lg-4 col-md-4 col-sm-4 intro_item">
+                                <h3>인스턴스 관리</h3>
+                                <p class="under"></p>
+                                <p>KVM, Hyper-v 어떤 종류의 가상 머신도 즉시 만들고 실행하세요, 이기종의 여러 하이퍼바이저들을 지원하며 모두 한곳에서 표준화하여 관리할 수 있습니다.</p>
+
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8" data-appear-top-offset="-200" data-animated="fadeInRight">
+                                <img src="images/intro03.png" alt="intro3">
+                            </div>
+                        </div>
+                        <!-- //ROW -->
+                    </div>
+                </div>
+                <div class="purpose_block">
+                    <div class="container">
+                        <div class="row padbot60">
+                            <div class="col-lg-8 col-md-8 col-sm-8" data-appear-top-offset="-200" data-animated="fadeInLeft">
+                                <img src="images/intro04.png" alt="intro4">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 intro_item">
+                                <h3>상태 모니터링</h3>
+                                <p class="under"></p>
+                                <p>생성된 가상머신 인스턴스의 상세정보를 확인합니다, 또한 상태모니터링을 할 수 있도록 자원 사용량을 그래프로 제공합니다.</p>
+                            </div>
+                        </div>
+                        <!-- //ROW -->
+                    </div>
+                </div>
+                <div class="purpose_block" style=" background-color: #f4f4f4 ">
+                    <div class="container">
+                        <div class="row padbot60">
+                            <div class="col-lg-4 col-md-4 col-sm-4 intro_item">
+                                <h3>인스턴스 생성</h3>
+                                <p class="under"></p>
+                                <p>이미지와 사이즈를 몇번 클릭해서 원하는 인스턴스를 즉시 생성합니다. KVM, Hyper-v 기반의 가상머신을 생성할 수 있습니다.</p>
+
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8" data-appear-top-offset="-200" data-animated="fadeInRight">
+                                <img src="images/intro05.png" alt="intro5">
+                            </div>
+                        </div>
+                        <!-- //ROW -->
+                    </div>
+                </div>
+                <div class="purpose_block">
+                    <div class="container">
+                        <div class="row padbot60">
+                            <div class="col-lg-8 col-md-8 col-sm-8" data-appear-top-offset="-200" data-animated="fadeInLeft">
+                                <img src="images/architecture.png" alt="intro5">
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 intro_item">
+                                <h3>아키택처</h3>
+                                <p class="under"></p>
+                                <p>내부의 여러모듈이 Micro Service Architecture 로 구성되어 장애대응이 용이하며, 도커 컨테이너로 실행되므로 최신 기능을 즉각적으로 업데이트하여 사용할 수 있습니다.</p>
+                            </div>
+                        </div>
+                        <!-- //ROW -->
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+        <!-- CONTACTS -->
+        <section id="contacts">
+        </section>
+        <!-- //CONTACTS -->
+
+        <!-- FOOTER -->
+        <footer>
+
+            <!-- CONTAINER -->
+            <div class="container">
+
+                <!-- ROW -->
+                <div class="row">
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
+                        <h4>(주)에스유소프트</h4>
+                        <p>hello</p>
+                        <p></p>
+                        <ul class="social">
+                            <li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="javascript:void(0);"><i class="fa fa-pinterest-square"></i></a></li>
+                            <li><a href="javascript:void(0);"><i class="map_show fa fa-map-marker"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="respond_clear"></div>
+
+                    <div class="col-lg-4 col-md-4 padbot30">
+                        <span>경기도 성남시 분당구 정자일로 158, 606호 (13558)</span><br>
+                        <span>606, 158, Jeongjail-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea (13558)</span><br>
+                        <span>대표이사 박성수</span><br>
+                        <a href="mailto:sales@linux.co.kr">sales@linux.co.kr</a><br>
+                        <spanp>TEL : 1544 - 8128</span>
+                    </div>
+                </div>
+                <!-- //ROW -->
+            </div>
+            <!-- //CONTAINER -->
+        </footer>
+        <!-- //FOOTER -->
+
+
+        <!-- MAP -->
+
+        <!-- //MAP -->
+    </div>
+
+
+</body>
+
+</html>
