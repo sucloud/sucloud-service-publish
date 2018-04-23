@@ -45,18 +45,17 @@
 
         //BlackAndWhite
         $(window).load(function() {
-            $(".client_img").BlackAndWhite({
+            $('.client_img').BlackAndWhite({
                 hoverEffect: true, // default true
                 // set the path to BnWWorker.js for a superfast implementation
                 webworkerPath: false,
-                // for the images with a fluid width and height
+                // for the images with a fluid width and height 
                 responsive: true,
                 // to invert the hover effect
                 invertHoverEffect: false,
                 // this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
                 intensity: 1,
-                speed: {
-                    //this property could also be just speed: value for both fadeIn and fadeOut
+                speed: { //this property could also be just speed: value for both fadeIn and fadeOut
                     fadeIn: 300, // 200ms for fadeIn animations
                     fadeOut: 300 // 800ms for fadeOut animations
                 },
@@ -125,87 +124,59 @@
             </header>
             <!-- //HEADER -->
 
-            <!-- //BREADCRUMBS -->
 
-            <section id="intro">
-                <div class="purpose_block" style=" background-color: #f4f4f4 ">
+            <!-- HOME --
+
+
+            <!-- ABOUT -->
+            <section id="about">
+                <!-- MULTI PURPOSE -->
+                <div class="purpose_block">
+                    <!-- CONTAINER -->
                     <div class="container">
-                        <div class="row padbot60">
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <h3>제품 및 제휴문의</h3>
-                                <p class="under"></p>
-                                <dl>
-                                    <dt>담당자</dt>
-                                    <dd>박성수</dd>
-                                    <dt>Email</dt>
-                                    <dd>sspark09@gmail.com</dd>
-                                    <dt>Tel</dt>
-                                    <dd>1544-8128</dd>
-                                </dl>
-                            </div>
-                            <div class="col-lg-6 col-md-6 col-sm-12">
-                                <h3>채용 문의</h3>
-                                <p class="under"></p>
-                                <dl>
-                                    <dt>담당자</dt>
-                                    <dd>김기홍</dd>
-                                    <dt>Email</dt>
-                                    <dd>k2hong@linux.co.kr</dd>
-                                    <dt>Tel</dt>
-                                    <dd>1544-8128</dd>
-                                </dl>
-
+                        <!-- ROW -->
+                        <div class="row">
+                            <div>
+                                <div class="col-lg-1 col-md-1 col-sm-1" style="margin-left: 40px;">
+                                    <img src="images/application/wordpress.png" alt="" class="su-store">
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <h2>Wordpress</h2>
+                                    <p>www.wordpress.org</p>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-4 dropdown" style="margin-top:0px;">
+                                    <button class="btn btn-active btn-sm dropdown-toggle" type="button" id="download-vm" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Virtaul Machine</button>
+                                    <div class="dropdown-menu" aria-labelledby="download-vm">
+                                        <a class="dropdown-item" href="#">Wordpress.qcow2</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <!-- //ROW -->
+                        <hr>
                     </div>
                 </div>
                 <div class="purpose_block">
                     <div class="container">
-                        <div class="row padbot60">
-                            <div class="col-lg-6 col-md-6 col-sm-6 intro_item">
-                                <h3 style="font-weight: 600;">About us</h3>
-                                <p class="under"></p>
-                                <dl>
-                                    <dt>회사명</dt>
-                                    <dd>(주)에스유소프트</dd>
-                                    <dt>대표자</dt>
-                                    <dd>박성수</dd>
-                                    <dt>본사</dt>
-                                    <dd>경기도 성남시 분당구 정자일로 158, 606호(정자동, 백궁프라자2)</dd>
-                                    <dt>
-                                            부산지사 
-                                    </dt>
-                                    <dd>부산광역시 해운대구 센텀중앙로 48, 914호(우동, 에이스하이테크21)</dd>
-                                    <dt>대표전화</dt>
-                                    <dd>1588-8128</dd>
-                                </dl>
+                        <div class="row">
+                            <div style="margin-left:40px;">
+                                <p>
+                                    blablablablablalbalbalbalblabalblas
+                                </p>
                             </div>
-                            <div class="col-lg-6 col-md-6 col-sm-6" data-appear-top-offset="-200" data-animated="fadeInLeft">
-                                <!-- * Daum 지도 - 지도퍼가기 -->
-                                <!-- 1. 지도 노드 -->
-                                <div id="daumRoughmapContainer1524213020182" class="root_daum_roughmap root_daum_roughmap_landing"></div>
-                                <br>
-                                <br>
-                                <!-- * Daum 지도 - 지도퍼가기 -->
-                                <!-- 1. 지도 노드 -->
-                                <div id="daumRoughmapContainer1524213145648" class="root_daum_roughmap root_daum_roughmap_landing"></div>
-
-
-
-
-
-                            </div>
-
                         </div>
                     </div>
                 </div>
 
 
+
             </section>
+            <!-- //ABOUT -->
         </div>
+        <!-- //PAGE -->
 
         <!-- CONTACTS -->
-        <section id="contacts">
+        <section id="contacts ">
         </section>
         <!-- //CONTACTS -->
 
@@ -213,31 +184,31 @@
         <footer>
 
             <!-- CONTAINER -->
-            <div class="container">
+            <div class="container ">
 
                 <!-- ROW -->
-                <div class="row">
+                <div class="row " data-appear-top-offset="-200 " data-animated="fadeInUp ">
 
-                    <div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
+                    <div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block ">
                         <h4>(주)에스유소프트</h4>
                         <p>hello</p>
                         <p></p>
-                        <ul class="social">
-                            <li><a href="javascript:void(0);"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="javascript:void(0);"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="javascript:void(0);"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a href="javascript:void(0);"><i class="fa fa-pinterest-square"></i></a></li>
-                            <li><a href="javascript:void(0);"><i class="map_show fa fa-map-marker"></i></a></li>
+                        <ul class="social ">
+                            <li><a href="javascript:void(0); "><i class="fa fa-twitter "></i></a></li>
+                            <li><a href="javascript:void(0); "><i class="fa fa-facebook "></i></a></li>
+                            <li><a href="javascript:void(0); "><i class="fa fa-google-plus "></i></a></li>
+                            <li><a href="javascript:void(0); "><i class="fa fa-pinterest-square "></i></a></li>
+                            <li><a href="javascript:void(0); "><i class="map_show fa fa-map-marker "></i></a></li>
                         </ul>
                     </div>
 
-                    <div class="respond_clear"></div>
+                    <div class="respond_clear "></div>
 
-                    <div class="col-lg-4 col-md-4 padbot30">
+                    <div class="col-lg-4 col-md-4 padbot30 ">
                         <span>경기도 성남시 분당구 정자일로 158, 606호 (13558)</span><br>
                         <span>606, 158, Jeongjail-ro, Bundang-gu, Seongnam-si, Gyeonggi-do, Republic of Korea (13558)</span><br>
                         <span>대표이사 박성수</span><br>
-                        <a href="mailto:sales@linux.co.kr">sales@linux.co.kr</a><br>
+                        <a href="mailto:sales@linux.co.kr ">sales@linux.co.kr</a><br>
                         <spanp>TEL : 1544 - 8128</span>
                     </div>
                 </div>
@@ -251,27 +222,8 @@
         <!-- MAP -->
 
         <!-- //MAP -->
+
     </div>
-    <script charset="UTF-8" class="daum_roughmap_loader_script" src="http://dmaps.daum.net/map_js_init/roughmapLoader.js"></script>
-
-    <!-- 3. 실행 스크립트 -->
-    <script charset="UTF-8">
-        new daum.roughmap.Lander({
-            "timestamp": "1524213020182",
-            "key": "nspr",
-            "mapWidth": "600",
-            "mapHeight": "300"
-        }).render();
-    </script>
-    <!-- 3. 실행 스크립트 -->
-    <script charset="UTF-8">
-        new daum.roughmap.Lander({
-            "timestamp": "1524213145648",
-            "key": "nspu",
-            "mapWidth": "600",
-            "mapHeight": "300"
-        }).render();
-    </script>
-
-
 </body>
+
+</html>
